@@ -34,9 +34,9 @@ We were asked ot create 4 Deliverables for this analysis:
 
 - **Deliverable 4**:
   - The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png.
-  - 
+  
   - The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png.
-  - 
+  
   - The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file. 
 
 
