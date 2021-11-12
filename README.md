@@ -53,9 +53,11 @@ We were asked ot create 4 Deliverables for this analysis:
  ![movies_query.png](Resources_Images/movies_query.png) 
   
   - The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png.
-
-   
   
   - The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file. 
 
+![deliverable4_elapsed_time.png](Resources_Images/deliverable4_elapsed_time.png)  
+
 ![ratings_query.png](Resources_Images/ratings_query.png) 
+
+
