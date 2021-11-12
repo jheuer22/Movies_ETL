@@ -19,24 +19,43 @@ We were asked ot create 4 Deliverables for this analysis:
 - **Deliverable 1**:
   - The function converts the Wikipedia JSON file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
   
+![deliverable_1_movies_df.png](Resources_Images/deliverable_1_movies_df.png)
+  
   - The function converts the Kaggle metadata file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
   
+![deliverable_1_df_kaggle.png](Resources_Images/deliverable_1_df_kaggle.png) 
+ 
   - The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file.
+
+![deliverable_1_ratings.png](Resources_Images/deliverable_1_ratings.png) 
 
 
 - **Deliverable 2**: 
   - The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the ETL_clean_wiki_movies.ipynb file.
+  - 
+![deliverable_2_df.png](Resources_Images/deliverable_2_df.png) 
+ 
+ ![deliverable_2_df_titles.png](Resources_Images/deliverable_2_df_titles.png) 
 
 - **Deliverable 3**: 
   - The movies_df DataFrame is merged with the cleaned ratings DataFrame to create the movies_with_ratings_df DataFrame. 
+  ![deliverable_3_1.png](Resources_Images/deliverable_3_1.png) 
   
   - The movies_with_ratings_df and the movies_df DataFrames are displayed in the ETL_clean_kaggle_data.ipynb file.
+
+ ![deliverable_3_2.png](Resources_Images/deliverable_3_2.png) 
+ 
+  ![deliverable_3_3.png](Resources_Images/deliverable_3_3.png) 
 
 - **Deliverable 4**:
   - The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png.
   
+ ![movies_query.png](Resources_Images/movies_query.png) 
+  
   - The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png.
+
+   
   
   - The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file. 
 
-
+![ratings_query.png](Resources_Images/ratings_query.png) 
