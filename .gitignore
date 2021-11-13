@@ -2,7 +2,6 @@
 config.py
 
 # Adding additional files
-*.csv
 *.zip
 
 # Byte-compiled / optimized / DLL files
